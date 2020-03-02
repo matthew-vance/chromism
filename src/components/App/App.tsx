@@ -124,10 +124,8 @@ const App = () => {
         </GridContainer>
         <Modal
           isOpen={showModal}
-          contentLabel="onRequestClose Example"
           onRequestClose={handleCloseModal}
           shouldCloseOnOverlayClick={true}
-          ariaHideApp={false}
           style={{
             overlay: {
               backgroundColor: "rgba(255, 255, 255, 0.4)"
