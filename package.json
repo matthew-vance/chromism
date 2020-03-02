@@ -13,13 +13,22 @@
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^16.9.23",
+    "@types/react-color": "^3.0.1",
     "@types/react-dom": "^16.9.5",
+    "@types/react-modal": "^3.10.5",
+    "@types/styled-components": "^5.0.1",
+    "@types/tinycolor2": "^1.4.2",
     "parcel-bundler": "^1.12.4",
     "typescript": "^3.8.3"
   },
   "dependencies": {
+    "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "^4.9.1",
     "react": "^16.13.0",
+    "react-color": "^2.18.0",
     "react-dom": "^16.13.0",
-    "styled-components": "^5.0.1"
+    "react-modal": "^3.11.2",
+    "styled-components": "^5.0.1",
+    "tinycolor2": "^1.4.1"
   }
 }
