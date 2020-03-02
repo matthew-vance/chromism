@@ -6,6 +6,7 @@ import { ChromePicker, ColorResult } from "react-color";
 import tinycolor from "tinycolor2";
 import Modal from "react-modal";
 import { getSurroundingValues } from "~/utils";
+import { Gradient } from "..";
 
 interface GlobalStyleProps {
   backgroundColor: string;
@@ -202,15 +203,4 @@ const GridContainer = styled.section`
 
 const OutputGridContainer = styled(GridContainer)`
   grid-template-columns: repeat(3, 1fr);
-`;
-
-interface GradientProps {
-  colors: string[];
-}
-
-const Gradient = styled.div<GradientProps>`
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, ${({ colors }) => colors.join(", ")});
-  border-radius: 2px;
 `;
